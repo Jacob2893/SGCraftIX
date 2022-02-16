@@ -1,0 +1,34 @@
+name: SGCraft
+version: 0.0.1
+main: pl.sgcraft.sgcraft.SGCraft
+api-version: 1.16
+
+commands:
+  spawnhunter:
+    description: Spawnuje Hunter'a
+  spawnjacob:
+    description: Spawnuje Jacob'a
+  spawnlesiu:
+    description: Spawnuje Lesia
+  spawnprzewodnik:
+    description: Spawnuje Przewodnika
+  spawndarkshop:
+    description: Spawnuje Zbira
+  nick:
+    description: Nick
+
+permissions:
+  sgcraft.*:
+    children:
+    sgcraft.spawnhunter:
+      description: Daje uprawnienia
+    sgcraft.spawnprzewodnik:
+      description: Daje uprawnienia
+    sgcraft.spawndarkshop:
+      description: Daje uprawnienia
+    sgcraft.spawnjacob:
+      description: Daje uprawnienia
+    sgcraft.spawnlesiu:
+      description: Daje uprawnienia
+    sgcraft.nick:
+      description: Daje uprawnienia
